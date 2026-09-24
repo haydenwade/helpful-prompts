@@ -3,11 +3,11 @@ name: add-prompt
 description: Add a new prompt to this repository's prompts/ directory, following the standard file format and naming convention. Use when the user wants to save, add, or create a new prompt for the helpful-prompts collection.
 ---
 
-Prompts live one-per-file under `prompts/`, named `slug.md` (lowercase, hyphen-separated, no date prefix).
+Prompts live one-per-file under `prompts/`, named `slug.md` (lowercase, hyphen-separated, no date prefix). Related prompts may live in a subfolder, e.g. `prompts/skill-building/<slug>.md` — check for an existing subfolder that fits the new prompt's topic before defaulting to the top level.
 
 To add a new prompt:
 
-1. Create `prompts/<slug>.md` using this format:
+1. Create `prompts/<slug>.md` (or `prompts/<subfolder>/<slug>.md` if it belongs with an existing group) using this format:
 
 ```markdown
 ---

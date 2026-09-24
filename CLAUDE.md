@@ -9,6 +9,7 @@ A content library, not a codebase — a collection of standalone prompts, one pe
 ## Structure
 
 - `prompts/<slug>.md` — one prompt per file, filename is the slug only (no date prefix).
+- Related prompts may be grouped into a subfolder, e.g. `prompts/skill-building/<slug>.md`, when there are enough of them to warrant it.
 - Each prompt file follows this format:
 
 ```markdown
