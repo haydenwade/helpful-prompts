@@ -28,7 +28,7 @@ Then remove anything that explains concepts Claude already understands. Tell me 
 ```
 
 ## Notes
-Replace the placeholder line with the target skill: paste the SKILL.md content directly, attach the file, or just name an installed skill Claude already has access to. Useful when writing or reviewing Claude Code skills to catch common gaps before publishing.
+Replace the placeholder line with the target skill: paste the SKILL.md content directly, attach the file, or just name an installed skill Claude already has access to. Best for a skill already in use that needs frequent corrections or gives inconsistent results — not first-time authoring.
 
 ## What's next
 Once you've reviewed the findings, apply them:
